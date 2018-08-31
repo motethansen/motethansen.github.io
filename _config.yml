@@ -1,1 +1,45 @@
+title: Motet Hansen
+author: motethansen
+email: michael@motethansen.com
+description: > # this means to ignore newlines until "twitter_username:"
+  Technology and entrepreneurship are some of the areas covered on this website.
+  Smart city and lean management are other areas I have on interest.
+# social links
+twitter_username: motethansen
+github_username:  motethansen
+rss: rss
+# dribbble_username: jekyll
+facebook_username: motethansen
+# flickr_username: jekyll
+instagram_username: motethansen
+linkedin_username: michaelmotethansen
+# pinterest_username: jekyll
+youtube_username: michaelmotethansen
+googleplus_username: +motethansen
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
 theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
