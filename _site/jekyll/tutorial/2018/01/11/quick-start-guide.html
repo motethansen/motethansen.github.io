@@ -6,7 +6,7 @@
     
 <link rel="icon" href="/assets/images/logo.png">
     
-<title>About Motethansen | MotetHansen</title>
+<title>Quick Start Guide | MotetHansen</title>
     
  
     
@@ -25,7 +25,7 @@
 
     
 
-<body class="layout-page">
+<body class="layout-post">
 
     
 <!-- Begin Menu Navigation
@@ -58,7 +58,7 @@
                 </li>
                 
                 
-                <li class="nav-item active">
+                <li class="nav-item">
                 
                 <a class="nav-link" href="/about">About</a>
                 </li>
@@ -111,19 +111,171 @@
 <!-- Content
 ================================================== --> 
 <div class="main-content">
-    <section>
-    <div class="section-title">
-        <h2><span>About Motethansen</span></h2>
-    </div>
-    
-    <div class="article-post">
-    <h3 id="about">About</h3>
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+	<div class="row">
 
-    </div>
+		<!-- Post Share -->
+		<div class="col-md-2 pl-0">            
+           <div class="share">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Quick Start Guide&url=http://localhost:4000/jekyll/tutorial/2018/01/11/quick-start-guide.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fab fa-twitter"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/jekyll/tutorial/2018/01/11/quick-start-guide.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/jekyll/tutorial/2018/01/11/quick-start-guide.html" onclick="window.open(this.href, 'facebook-google', 'width=550,height=435');return false;">
+        <i class="fab fa-google"></i>
+        </a>
+        </li>
+        
+    </ul>
     
+    <div class="sep">
+    </div>				
+    <ul>
+        <li> 
+        <a  class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
     
-    
+</div>  
+		</div>
+		
+
+		<!-- Post -->        
+        
+        
+		<div class="col-md-9 flex-first flex-md-unordered">
+			<div class="mainheading">
+
+                <!-- Author Box -->
+                				
+				<div class="row post-top-meta">
+					<div class="col-md-2">
+						<img class="author-thumb" src="https://www.gravatar.com/avatar/6dbdef0376ac4867c80ff2274d6e8fc3?s=250&d=mm&r=x" alt="Michael">
+					</div>
+					<div class="col-md-10">
+						<a target="_blank" class="link-dark" href="https://michael.motethansen.com">Michael</a><a target="_blank" href="https://twitter.com/motethansen" class="btn follow">Follow</a>
+						<span class="author-description">Creator of this blog.</span>						
+					</div>
+				</div>				
+                
+                
+                <!-- Post Title -->
+				<h1 class="posttitle">Quick Start Guide</h1> 
+                
+			</div>
+
+			<!-- Post Featured Image -->
+			<img class="featured-image img-fluid" src="https://jekyllrb.com/img/logo-2x.png" alt="Quick Start Guide">
+			<!-- End Featured Image -->
+
+			<!-- Post Content -->
+			<div class="article-post">
+				<p>If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Install Jekyll and Bundler gems through RubyGems</span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">bundler</span>
+
+<span class="c1"># Create a new Jekyll site at ./myblog</span>
+<span class="n">jekyll</span> <span class="n">new</span> <span class="n">myblog</span>
+
+<span class="c1"># Change into your new directory</span>
+<span class="n">cd</span> <span class="n">myblog</span>
+
+<span class="c1"># Build the site on the preview server</span>
+<span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+
+<span class="c1"># Now browse to http://localhost:4000</span>
+</code></pre></div></div>
+
+			</div>
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2018-01-11">11 Jan 2018</time></span>           
+                
+                </small>
+            </p>
+            
+			<!-- Post Categories -->
+			<div class="after-post-tags">
+				<ul class="tags">
+                    
+                    
+                    <li>
+                     <a href="/category/jekyll/">Jekyll</a>
+                    </li>
+                    
+                    <li>
+                     <a href="/category/tutorial/">tutorial</a>
+                    </li>
+                    
+				</ul>
+			</div>
+			<!-- End Categories -->
+            
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="http://localhost:4000/jekyll/2019/01/21/using-jekyll.html">Using Jekyll &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+		</div>
+		<!-- End Post -->
+
+	</div>
+</div>
+<!-- End Article
+================================================== -->
+
+  
+
+<!-- Begin Comments
+================================================== -->
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">              
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'motethansen'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
+                
+            </div>
+        </div>
+    </div>
+
+<!--End Comments
+================================================== -->
 </div>
 
 <!-- Bottom Alert Bar

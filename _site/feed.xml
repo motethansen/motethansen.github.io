@@ -1,2 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-31T19:09:19+08:00</updated><id>http://localhost:4000/</id><title type="html">Motet Hansen</title><subtitle>Technology and entrepreneurship are some of the areas covered on this website. Smart city and lean management are other areas I have on interest.
-</subtitle><author><name>motethansen</name></author></feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Keep on learning...</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Jan 2019 21:16:57 +0800</pubDate>
+    <lastBuildDate>Mon, 21 Jan 2019 21:16:57 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Using Jekyll</title>
+        <description>&lt;p&gt;Yep, this website is build with Jekyll.
+More on that soon …&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/jekyll/2019/01/21/using-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2019/01/21/using-jekyll.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Start Guide</title>
+        <description>&lt;p&gt;If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Install Jekyll and Bundler gems through RubyGems&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bundler&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Create a new Jekyll site at ./myblog&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myblog&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Change into your new directory&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myblog&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Build the site on the preview server&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Now browse to http://localhost:4000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Thu, 11 Jan 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/jekyll/tutorial/2018/01/11/quick-start-guide.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/11/quick-start-guide.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+  </channel>
+</rss>
